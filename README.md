@@ -1,4 +1,4 @@
-## fotogency, a theme by ThemeWagon team.
+## My Portfolio Fajar (Zarpixel)
 
 ---
 
