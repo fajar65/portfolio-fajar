@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Blog | Detail</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/logo-zarpixel.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/logo-zarpixel.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/logo-zarpixel.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/logo-zarpixel.png">
+    <link rel="manifest" href="../assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="../https://fonts.gstatic.com">
+    <link href="../https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="../vendors/prism/prism.css" rel="stylesheet">
+    <link href="../vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/css/theme.css" rel="stylesheet" />
+    <link href="../assets/css/user.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <div class="cursor-outer d-none d-md-block"></div>
+        <nav class="navbar navbar-light py-3 px-0 overflow-hidden">
+            <div class="container px-md-5">
+                <div class="row w-100 g-0 justify-content-between">
+                    <div class="col-8">
+                        <div class="d-inline-block">
+                            <a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="../index.html"><img class="img-fluid" src="../assets/img/favicons/logo-zarpixel.png" height="50" width="50" alt="" /><span class="fw-bolder ms-2">Zar</span><span class="fw-thin">Pixel</span></a>
+                        </div>
+                        <div class="mt-4 d-none d-lg-block">
+                            <h1 class="text-uppercase fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0">
+                                Detail</h1>
+                            <h1 class="d-none d-md-block fw-bolder text-outlined fs-7 text-white lh-1 mt-n4 position-relative z-index--1">
+                                Blog</h1>
+                        </div>
+                    </div>
+                    <div class="col-4 d-lg-none text-end pe-0">
+                        <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
+                    </div>
+                    <div class="offcanvas offcanvas-end px-0" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasTitle" aria-hidden="true">
+                        <div class="offcanvas-header justify-content-end">
+                            <h5 class="visually-hidden offcanvas-title" id="navbarOffcanvasTitle">Menu</h5>
+                            <button class="btn p-0 shadow-none text-black fs-2 d-inline text-end" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span
+                                    class="menu-close-bar"></span></button>
+                        </div>
+                        <div class="offcanvas-body px-0">
+                            <div class="d-lg-flex flex-center-start gap-3 overflow-hidden">
+                                <ul class="navbar-nav ms-auto fs-4 ps-6">
+                                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="../index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="../portfolio.html">Portfolio</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="../gallery.html">Gallery</a></li> -->
+                                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="../exhibitions.html">Exhibitions</a></li>
+                                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="../about.html">About</a></li>
+                                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5 active" aria-current="page" href="../blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-none d-lg-flex justify-content-end position-relative z-index-1">
+                            <div class="position-absolute absolute-centered z-index--1">
+                                <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">
+                                    Blog</h1>
+                            </div>
+                            <div class="d-flex gap-3 align-items-start"><a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="../blog.html#contact">Contact Now</a>
+                                <ul class="navbar-nav navbar-fotogency ms-auto text-end">
+                                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="../index.html">Home</a></li>
+                                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="../portfolio.html">Portfolio</a></li>
+                                    <!-- <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="../gallery.html">Gallery</a></li> -->
+                                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="../exhibitions.html">Exhibitions</a></li>
+                                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="../about.html">About</a></li>
+                                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0 active" aria-current="page" href="../blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 mt-4 d-lg-none">
+                    <h1 class="text-uppercase ps-0 fs-lg-7 fs-5 fw-bolder text-300 lh-1 position-relative z-index-0">
+                        About</h1>
+                    <h1 class="fw-bolder text-outlined ps-0 fs-lg-7 fs-sm-6 fs-5 text-white lh-1 mt-sm-n4 mt-n3 position-relative z-index--1">
+                        Our Team</h1>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- ============================================-->
+        <!--================Blog Area =================-->
+        <section class="blog_area section-gap single-post-area">
+            <div class="container px-md-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="main_blog_details">
+                            <h4>Perangkat Jaringan Repeater, Bridge, Network Interface Card (NIC).</h4>
+                            <img class="img-fluid h-25 my-4" src="../assets/img/blogs/pertemuan3/img-pertemuan3.jpg" alt="">
+                            <div class="user_details">
+                                <div class="float-left">
+                                    <a href="#">Jaringan Komputer</a>
+                                </div>
+                                <div class="float-right">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <h5>Fajar Firmansyah</h5>
+                                            <p>1 April 2023</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="img-fluid" src="img/blog/user-img.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Perangkat Jaringan Repeater, Bridge, Network Interface Card (NIC)</h4>
+                            <br>
+                            <h5>1. Repeater</h5>
+                            <img src="../assets/img/blogs/pertemuan3/repeater.jpeg" alt="" srcset="">
+                            <p>Repeater atau Network Repeater adalah suatu perangkat yang berfungsi untuk mengatasi masalah keterbatasan jarak atau kualitas sinyal suatu segmen jaringan komputer.</p>
+                            <br>
+                            <ul>
+                                <li>
+                                    <h5>Cara kerja dan contoh repeater</h5>
+                                </li>
+                                <br>
+                                <p>Cara kerja repeater yaitu menyebarkan data ke seluruh jaringan walaupun data tersebut tidak di perlukan maka akan tetap tersebar ke seluruh jaringan, penyebaran data tersebut kinerjanya akan menurun atau aksesnya semakin
+                                    lambat apabila semakin banyaknya pemberhentian sinyal (Station) dan meningkatnya traffic data.</p>
+                                <p>Repeater biasanya dipasang di titik – titik tertentu untuk memperbarui transmisi sinyal yang datang agar kondisi sinyal seperti saat di pancarkan pertama kali dari pemancar. Sebagai contoh repeater ialah HUB, HUB juga sering
+                                    kali di sebut sebagai multiport/modular.</p>
+                                <br>
+                                <li>
+                                    <h5>Fungsi-fungsi repeater pada jaringan</h5>
+                                </li>
+                                <!-- <br> -->
+                                <li>1. Memperluas area jangkauan sinyal</li>
+                                <li>2. Menghemat biaya.</li>
+                                <li>3. Menghemat waktu.</li>
+                                <br>
+
+                                <li>
+                                    <h5>Manfaat repeater</h5>
+                                </li>
+                                <!-- <br> -->
+                                <li>1. Memancarkan sinyal ke seluruh sudut dalam suatu gedung</li>
+                                <li>2. Memberikan dan menyalurkan sinyal lebih baik kepada setiap user.</li>
+                                <li>3. Akses internet menjadi lebih mudah tanpa terhalang lokasi sesuai nirkabel.</li>
+                                <li>4. Memudahkan user menggunakan akses internet di segala perangkat tanpa batasan limit user.</li>
+                            </ul>
+                            <br>
+                            <h5>2. Bridge</h5>
+                            <img src="../assets/img/blogs/pertemuan3/bridge.jpeg" alt="" srcset="">
+                            <p>Dalam bahasa Inggris bridge berarti jembatan. Sementara arti dari bridge dalam istilah internet adalah perangkat keras yang menghubungkan satu jaringan dengan jaringan yang lain. Bridge mampu menghubungkan jaringan LAN yang
+                                memakai tipe jaringan yang berbeda. Misalnya Ethernet dan Fast Ethernet bisa dihubungkan oleh bridge. Hal itu memungkinkan karena Bridge bekerja pada layer data-link yang mana merupakan model dari OSI atau Open System Interconnection..</p>
+                            <br>
+                            <ul>
+                                <li>
+                                    <h5>Cara kerja Bridge</h5>
+                                </li>
+                                <br>
+                                <li>Pertama, bridge memetakan alamat dari jaringan tipe ethernet atau yang lain pada setiap titik yang mana titik-titik tersebut terdapat pada tiap segmen jaringan dari komputer itu sendiri.</li>
+                                <li>Ketika Bridge sudah memetakan alamat pada masing-masing jaringan, ia akan menyortir atau menyaring data yang mana hanya dibutuhkan untuk melewati bridge.</li>
+                                <li>Kemudian, ketika bridge menerima sebuah paket data, ia secara otomatis akan menentukan segmen sumber dan segmen tujuan dari paket data tersebut.</li>
+                                <li>ketika bridge mendapati bahwa segmen yang akan ia kirim sama, maka bridge akan menolak pengiriman tersebut. akan tetapi, sebaliknya, jika segmen yang akan dikirim itu berbeda, maka ia akan meneruskan mengirim segmen itu
+                                    ke tujuannya.</li>
+                                <br>
+                                <li>
+                                    <h5>Macam - Macam Bridge</h5>
+                                </li>
+                                <!-- <br> -->
+                                <li>1. Bridge Lokal</li>
+                                <li>2. Bridge Remote</li>
+                                <li>3. Bridge Nirkabel</li>
+                                <br>
+                            </ul>
+                            <br>
+
+                            <h5>3.NIC (NETWORK INTERFACE CARD)</h5>
+                            <img src="../assets/img/blogs/pertemuan3/nic.jpeg" alt="" srcset="">
+                            <p>NIC merupakan kependekan dari Network Interface Card. NIC merupakan sebuah perangkat keras jaringan, yang secara fisik berbentuk seperti sebuah kartu ekspansi, yang memungkinkan setiap komputer dapat terhubung dengan suatu
+                                jaringan dengan menggunakan kabel jaringan. NIC (Network Interface Card) ini juga memiliki beberapa istilah lainnya, seperti Kartu Jaringan (Network Card), LAN Card dan juga Ethernet Card.</p>
+                            <br>
+                            <ul>
+                                <li>
+                                    <h5>Jenis-jenis dari NIC</h5>
+                                </li>
+                                <br>
+                                <li>Network interface fisik</li>
+                                <li>Network interface logis</li>
+
+                                <br>
+
+                                <li>
+                                    <h5>Fungsi dari NIC</h5>
+                                </li>
+                                <!-- <br> -->
+                                <li>1. Sebagai media pengirim data dari satu komputer ke komputer lainnya</li>
+                                <li>2. Sebagai pengontrol data flow antar komputer yang menggunakan sistem kabel jaringan
+                                </li>
+                                <li>3. Menerima data dari komputer lain</li>
+                                <li>4. Menterjemahkan data menjadi bentuk bit, sehingga dapat dimengerti oleh komputer penerima
+                                </li>
+                                <br>
+
+                                <li>
+                                    <h5>Tugas utama dari NIC</h5>
+                                </li>
+                                <!-- <br> -->
+                                <p>
+                                    Tugas utama dari sebuah NIC tersebut adalah untuk mengubah aliran data berbentuk parallel di dalam bus sebauh komputer menjadi aliran data yang berbentuk serial, sehingga nantinya aliran data yang berbentuk serial tersebut bisa saling di transmisikan
+                                    di dalam media jaringan komputer.
+                                </p>
+                                <br>
+                            </ul>
+                            <br>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog_right_sidebar">
+                            <!-- <aside class="single_sidebar_widget search_widget">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Posts">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
+                                </span>
+                                </div>
+                                <div class="br"></div>
+                            </aside> -->
+                            <aside class="single_sidebar_widget author_widget">
+                                <img class="author_img img-fluid" src="img/blog/author.png" alt="">
+                                <h4>Fajar Firmansyah</h4>
+                                <p>UI UX Designer | Mobile Apps Developer</p>
+                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.
+                                </p>
+                                <div class="social_icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-github"></i></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
+                                </div>
+                                <div class="br"></div>
+                            </aside>
+                            <!-- <aside class="single_sidebar_widget popular_post_widget">
+                                <h3 class="widget_title">Popular Posts</h3>
+                                <div class="media post_item">
+                                    <img src="img/blog/popular-post/post1.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="blog-details.html">
+                                            <h3>Space The Final Frontier</h3>
+                                        </a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="img/blog/popular-post/post2.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="blog-details.html">
+                                            <h3>The Amazing Hubble</h3>
+                                        </a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="img/blog/popular-post/post3.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="blog-details.html">
+                                            <h3>Astronomy Or Astrology</h3>
+                                        </a>
+                                        <p>03 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="br"></div>
+                            </aside> -->
+                            <!-- <aside class="single_sidebar_widget newsletter_widget">
+                                <h4 class="widget_title">Newsletter</h4>
+                                <div id="mc_embed_signup">
+                                    <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                        <div class="input-group d-flex flex-row">
+                                            <input name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                            <button class="btn sub-btn">
+                                            <span class="lnr lnr-arrow-right"></span>
+                                        </button>
+                                        </div>
+                                        <div class="mt-10 info"></div>
+                                    </form>
+                                </div>
+                            </aside> -->
+                            <div class="br"></div>
+                            <aside class="single_sidebar_widget post_category_widget">
+                                <h4 class="widget_title">Post Catgories</h4>
+                                <ul class="list cat-list">
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Technology</p>
+                                            <p>37</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Lifestyle</p>
+                                            <p>24</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Fashion</p>
+                                            <p>59</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Art</p>
+                                            <p>29</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <p>Food</p>
+                                            <p>15</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================Blog Area =================-->
+        <!-- ============================================-->
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+    <footer class="bg-footer-black" id="footer">
+        <div class="container py-7 px-md-5">
+            <div class="row g-0">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <div class="mb-4 d-inline-block">
+                        <a class="navbar-brand pt-0 fs-3 text-white d-flex align-items-center" href="../index.html"><img class="img-fluid" src="../assets/img/favicons/logo-zarpixel.png" alt="" width="40" height="40" /><span class="fw-bolder ms-2">Zar</span><span class="fw-thin">Pixel</span></a>
+                    </div>
+                    <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-map-marker-alt"></i><a class="nav-link text-300 d-inline" target="_blank" href="../https://goo.gl/maps/vvvURbgrLDm7g3pTA">
+                            Cibatok 1, Kec. Cibungbulang, Kabupaten Bogor, Jawa Barat 16630</a></div>
+                    <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-phone"></i><a class="nav-link text-300 d-inline" target="_blank" href="../whatsapp://send?text=Hello&phone=+628988500034">+628988500034</a></div>
+                    <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-envelope"></i><a class="nav-link text-300 d-inline" href="../mailto:zarpixelg@gmail.com">zarpixel@gmail.com</a></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- <h5 class="text-white mb-2">SUBSCRIBE TO OUR NEWSLETTER</h5>
+              <form>
+                  <div class="form-floating mb-5 position-relative text-200">
+                      <input class="form-control form-fotogency-header-control text-200" id="email" type="email" placeholder="name@example.com" required="required" />
+                      <label class="text-300 mb-1" for="email">Email</label>
+                      <div class="position-absolute end-0 top-0">
+                          <button class="btn shadow-none px-0" type="submit"><img class="ms-3"
+                                  src="../assets/img/icons/long-arrow.png" alt="" /></button>
+                      </div>
+                  </div>
+              </form> -->
+                    <div class="d-flex gap-2 flex-wrap justify-content-between align-items-center">
+                        <!-- <a class="social-icons" href="../https://www.facebook.com/" target="_blank">Facebook</a> -->
+                        <a class="social-icons" href="../https://dribbble.com/zarpixel" target="_blank">Dribbble</a>
+                        <a class="social-icons" href="../https://www.linkedin.com/in/fajar-firmansyah-b450a0238/" target="_blank">LinkedIn</a>
+                        <a class="social-icons" href="../https://www.instagram.com/zarpixel" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-black py-0">
+
+        <div class="container px-md-5">
+            <div class="row g-0 justify-content-md-between justify-content-evenly py-4">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+                    <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; Zarpixel, 2023</p>
+                </div>
+                <!-- <div class="col-12 col-sm-8 col-md-6">
+                <p class="fs--1 fw-light my-2 text-center text-md-end text-100"> Made with&nbsp;
+                    <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
+            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+          </svg>&nbsp;by&nbsp;<a class="fw-bold text-warning" href="../https://themewagon.com/" target="_blank">ThemeWagon</a>
+                </p>
+            </div> -->
+            </div>
+        </div>
+        <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="../vendors/popper/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../vendors/is/is.min.js"></script>
+    <script src="../vendors/fontawesome/all.min.js"></script>
+    <script src="../vendors/lodash/lodash.min.js"></script>
+    <script src="../https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="../vendors/prism/prism.js"></script>
+    <script src="../vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+</body>
+
+</html>
